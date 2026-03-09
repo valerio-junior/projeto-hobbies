@@ -167,25 +167,58 @@ export const HomeHero = styled.div`
   background: linear-gradient(135deg, rgba(88, 166, 255, 0.1) 0%, rgba(139, 148, 158, 0.05) 100%);
   border: 1px solid #30363d;
   border-radius: 16px;
-  padding: 48px;
+  padding: 32px;
   margin-bottom: 40px;
 `;
 
+export const HomeHeroContent = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+`;
+
+export const HomeHeroText = styled.div`
+  flex: 1;
+`;
+
 export const HomeHeroTitle = styled.h1`
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: 800;
   color: #f0f6fc;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 
   span {
     color: #58a6ff;
   }
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const HomeHeroSubtitle = styled.p`
-  font-size: 1.2rem;
+  font-size: 0.95rem;
   color: #8b949e;
-  line-height: 1.8;
+  line-height: 1.7;
+`;
+
+export const AvatarImage = styled.img`
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid #58a6ff;
+  flex-shrink: 0;
+
+  @media (max-width: 768px) {
+    width: 200px;
+    height: 200px;
+  }
 `;
 
 export const HobbyCards = styled.div`
