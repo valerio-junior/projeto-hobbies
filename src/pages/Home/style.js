@@ -208,16 +208,15 @@ export const HomeHeroSubtitle = styled.p`
 `;
 
 export const AvatarImage = styled.img`
-  width: 280px;
-  height: 280px;
-  object-fit: cover;
+  width: 220px;
+  height: auto;
+  object-fit: contain;
   border-radius: 12px;
   border: 3px solid #58a6ff;
   flex-shrink: 0;
 
   @media (max-width: 768px) {
-    width: 200px;
-    height: 200px;
+    width: 180px;
   }
 `;
 
