@@ -18,7 +18,10 @@ import {
   HomeHeroTitle,
   HomeHeroSubtitle,
   HobbyCards,
-  HobbyCard
+  HobbyCard,
+  HomeHeroContent,
+  HomeHeroText,
+  AvatarImage
 } from './style'
 
 // Importação dos vídeos
@@ -39,6 +42,9 @@ import goleiroTreinamento from '../../assets/videos/goleiro-treinamento.mp4'
 
 import malabares3Claves from '../../assets/videos/malabares-3-claves.mp4'
 import malabares4Claves from '../../assets/videos/malabares-4-claves.mp4'
+
+// Importação da imagem de avatar
+import avatarImage from '../../assets/image/avatar.jpg'
 
 // Dados dos vídeos
 const videosMagica = [
@@ -132,16 +138,21 @@ function Home() {
         return (
           <HomeSection>
             <HomeHero>
-              <HomeHeroTitle>
-                Olá, eu sou <span>Valerio</span>
-              </HomeHeroTitle>
-              <HomeHeroSubtitle>
-                Decidi criar este projeto para mostrar um pouco mais de quem eu sou além do código. 
-                Aqui você vai encontrar algumas das minhas paixões e hobbies que me acompanham há anos. 
-                Já fui jogador de futebol, onde atuei como goleiro e vivi momentos incríveis em campo. 
-                Também me aventurei no mundo dos malabares, desafiando a coordenação e a paciência. 
-                E nas horas vagas, gosto de surpreender as pessoas com algumas mágicas com cartas.
-              </HomeHeroSubtitle>
+              <HomeHeroContent>
+                <HomeHeroText>
+                  <HomeHeroTitle>
+                    Olá, eu sou <span>Valerio</span>
+                  </HomeHeroTitle>
+                  <HomeHeroSubtitle>
+                    Decidi criar este projeto para mostrar um pouco mais de quem eu sou além do código. 
+                    Aqui você vai encontrar algumas das minhas paixões e hobbies que me acompanham há anos. 
+                    Já fui jogador de futebol, onde atuei como goleiro e vivi momentos incríveis em campo. 
+                    Também me aventurei no mundo dos malabares, desafiando a coordenação e a paciência. 
+                    E nas horas vagas, gosto de surpreender as pessoas com algumas mágicas com cartas.
+                  </HomeHeroSubtitle>
+                </HomeHeroText>
+                <AvatarImage src={avatarImage} alt="Valerio" />
+              </HomeHeroContent>
             </HomeHero>
 
             <HobbyCards>
