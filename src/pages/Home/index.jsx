@@ -186,7 +186,7 @@ function Home() {
       case 'magicas':
         return (
           <>
-            <PageTitle>Mágicas</PageTitle>
+            <PageTitle>Mágicas com baralho</PageTitle>
             <PageDescription>
               Desde criança sempre fui fascinado pelo mundo da mágica. A capacidade de criar ilusões 
               e surpreender as pessoas é algo que me encanta até hoje. Aqui estão alguns dos meus 
@@ -210,7 +210,7 @@ function Home() {
       case 'treinos':
         return (
           <>
-            <PageTitle>Treinos de Academia</PageTitle>
+            <PageTitle>Treinos na Academia</PageTitle>
             <PageDescription>
               A musculação faz parte da minha rotina há alguns anos. Acredito que cuidar do corpo 
               é fundamental para manter a mente saudável também. Esses são alguns registros dos 
@@ -272,7 +272,7 @@ function Home() {
       case 'malabares':
         return (
           <>
-            <PageTitle>Malabares</PageTitle>
+            <PageTitle>Malabares com claves</PageTitle>
             <PageDescription>
               Malabarismo é uma arte que exige muita coordenação, paciência e prática constante. 
               Comecei com 3 claves e fui evoluindo aos poucos. É uma atividade que além de divertida, 
