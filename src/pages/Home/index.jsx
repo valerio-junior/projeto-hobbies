@@ -88,7 +88,9 @@ const IconHome = () => (
 
 const IconMagic = () => (
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+    <rect x="3" y="2" width="12" height="16" rx="1.5" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+    <rect x="9" y="6" width="12" height="16" rx="1.5" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6.5 7l1.5 2.5L6.5 12M6.5 7h1" />
   </svg>
 )
 
@@ -101,7 +103,8 @@ const IconDumbbell = () => (
 const IconSoccer = () => (
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
     <circle cx="12" cy="12" r="10" strokeWidth={2} />
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2v4m0 12v4M2 12h4m12 0h4" />
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2a10 10 0 0110 10M12 2a10 10 0 00-10 10M12 22a10 10 0 0010-10M12 22a10 10 0 01-10-10" />
+    <polygon strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} points="12,7 15,10 14,14 10,14 9,10" />
   </svg>
 )
 
