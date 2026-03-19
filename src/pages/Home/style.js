@@ -161,6 +161,7 @@ export const VideoTitle = styled.p`
 
 export const HomeSection = styled.section`
   max-width: 900px;
+  overflow: hidden;
 `;
 
 export const HomeHero = styled.div`
